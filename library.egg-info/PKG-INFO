@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: library
+Version: 1.0.0
+Requires-Dist: azure-storage-blob
+Requires-Dist: pandas
+Requires-Dist: pyspark
+Requires-Dist: dataclasses

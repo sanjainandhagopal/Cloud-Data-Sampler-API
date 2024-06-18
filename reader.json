@@ -1,0 +1,684 @@
+{
+    "csv" : {
+        "Format" : "TEXT",
+        "Structure" : "STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 1,
+        "MIME" : "text/csv",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "tsv" : {
+        "Format" : "TEXT",
+        "Structure" : "STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 1,
+        "MIME" : "text/tab-separated-values",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "asc" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "application/pgp-signature",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "brf" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/plain",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "c" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/x-c",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "cc" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/x-c",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "cpp" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/x-c",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "cxx" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/x-c",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "c++" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/x-c",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "cs" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/x-csharp",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "css" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/css",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "dart" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "application/dart",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "eml" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "message/rfc822",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "go" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/x-go",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "h" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/x-c",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "hh" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/x-c",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "hpp" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/x-c++hdr",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "h++" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/plain",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "hs" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/x-haskell",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "html" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/html",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "htm" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/html",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "shtml" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/x-server-parsed-html",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "shtm" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/html",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "xhtml" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "application/xhtml+xml",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "lhs" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/x-literate-haskell",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "ini" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "application/octet-stream",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "java" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/x-java-source",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "js" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/javascript",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "json" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "application/json",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "jsonl" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "application/x-jsonlines",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "ocaml" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/x-ocaml",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "md" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/markdown",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "mkd" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/markdown",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "markdown" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/markdown",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "m" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/x-matlab",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "ml" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/x-ocaml",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "mli" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/x-ocaml",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "pl" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "application/x-perl",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "pm" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "application/x-perl",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "php" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "application/x-httpd-php",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "phtml" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "application/x-httpd-php",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "pht" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "application/x-httpd-php",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "py" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/x-python",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "pyw" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "application/x-python-script",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "rb" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/x-ruby",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "rbw" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "application/x-ruby-script",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "rs" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "application/rls-services+xml",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "rc" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/x-winresource",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "scala" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/x-scala",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "sh" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "application/x-sh",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "sql" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "application/sql",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "tex" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "application/x-tex",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "txt" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/plain",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "text" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/plain",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "vcard" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/x-vcard",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "vcs" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/x-vcalendar",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "wml" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "text/vnd.wap.wml",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "xml" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "application/rss+xml",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "xsl" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "application/xml",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "xsd" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "application/xml",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "yml" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "application/yaml",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    },
+
+    "yaml" : {
+        "Format" : "TEXT",
+        "Structure" : "SEMI-STRUCTURED",
+        "Reader" : "Pandas",
+        "Strategy" : 2,
+        "MIME" : "application/yaml",
+        "Reader Param" : { 
+            "buffer size" : 5
+        }
+    }
+    
+}
